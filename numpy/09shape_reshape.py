@@ -1,0 +1,10 @@
+import numpy as np
+var = np.array([[1,2,3,4],[4,5,6,8]])
+print (var)
+print()
+print(var.shape)
+var2 = np.array([5,6,35,5,6,78])
+x = var2.reshape(2,3)
+print(x)
+print()
+print(x.reshape(-1))

@@ -1,0 +1,13 @@
+import numpy as np
+var = np.matrix([[1,2,3],[45,34,54],[1,54,23]])
+print(var)
+print(np.transpose(var))
+print("///")
+print(var)
+print(np.swapaxes(var,0,1))
+print("//////")
+print(np.linalg.inv(var))
+print("/////")
+print(np.linalg.matrix_power(var,3))
+print("//////")
+print(np.linalg.det(var))
